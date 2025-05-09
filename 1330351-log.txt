@@ -1,0 +1,77 @@
+000 (1330351.000.000) 2025-05-08 21:51:51 Job submitted from host: <134.61.19.51:9618?addrs=134.61.19.51-9618&alias=vispa-portal2.physik.rwth-aachen.de&noUDP&sock=schedd_3171540_3899>
+...
+001 (1330351.000.000) 2025-05-08 21:51:56 Job executing on host: <134.61.19.41:9618?addrs=134.61.19.41-9618&alias=vispa-gpu01.physik.rwth-aachen.de&noUDP&sock=startd_2372_92bc>
+	SlotName: slot1_4@vispa-gpu01.physik.rwth-aachen.de
+	CondorScratchDir = "/var/lib/condor/execute/dir_375496"
+	Cpus = 1
+	Disk = 11264
+	GpuMemory = 8000
+	GpuMemory0 = 8000
+	GpuMemory1 = 0
+	GPUs = 0
+	Memory = 16000
+...
+006 (1330351.000.000) 2025-05-08 21:51:59 Image size of job updated: 284452
+	278  -  MemoryUsage of job (MB)
+	284452  -  ResidentSetSize of job (KB)
+...
+006 (1330351.000.000) 2025-05-08 21:52:10 Image size of job updated: 5244584
+	4083  -  MemoryUsage of job (MB)
+	4180268  -  ResidentSetSize of job (KB)
+...
+006 (1330351.000.000) 2025-05-08 21:52:21 Image size of job updated: 5244584
+	4344  -  MemoryUsage of job (MB)
+	4447544  -  ResidentSetSize of job (KB)
+...
+006 (1330351.000.000) 2025-05-08 21:52:31 Image size of job updated: 5244584
+	4344  -  MemoryUsage of job (MB)
+	4447644  -  ResidentSetSize of job (KB)
+...
+006 (1330351.000.000) 2025-05-08 21:52:41 Image size of job updated: 5244584
+	4348  -  MemoryUsage of job (MB)
+	4452240  -  ResidentSetSize of job (KB)
+...
+006 (1330351.000.000) 2025-05-08 21:52:51 Image size of job updated: 5244584
+	4348  -  MemoryUsage of job (MB)
+	4452264  -  ResidentSetSize of job (KB)
+...
+006 (1330351.000.000) 2025-05-08 21:53:01 Image size of job updated: 5244584
+	4349  -  MemoryUsage of job (MB)
+	4452884  -  ResidentSetSize of job (KB)
+...
+006 (1330351.000.000) 2025-05-08 21:53:21 Image size of job updated: 5244584
+	4350  -  MemoryUsage of job (MB)
+	4453432  -  ResidentSetSize of job (KB)
+...
+006 (1330351.000.000) 2025-05-08 21:53:41 Image size of job updated: 5244584
+	4350  -  MemoryUsage of job (MB)
+	4453456  -  ResidentSetSize of job (KB)
+...
+006 (1330351.000.000) 2025-05-08 21:54:01 Image size of job updated: 5244584
+	4350  -  MemoryUsage of job (MB)
+	4453488  -  ResidentSetSize of job (KB)
+...
+005 (1330351.000.000) 2025-05-08 21:54:20 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:02:10, Sys 0 00:00:07  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:02:10, Sys 0 00:00:07  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            : 10000       10000     11264 
+	   GpuMemory            :              8000      8000 
+	   GpuMemory0           :                        8000 
+	   GpuMemory1           :                           0 
+	   GPUs                 :                 0         0 
+	   GpusMemory (MB)      :  5392                       
+	   Memory (MB)          :  4350       16000     16000 
+	   TimeExecute (s)      :   144                       
+	   TimeSlotBusy (s)     :   144                       
+
+	Job terminated of its own accord at 2025-05-08T19:54:20Z with exit-code 0.
+...

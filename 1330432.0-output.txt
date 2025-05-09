@@ -1,0 +1,221 @@
+ds.channel=<xarray.DataArray 'channel' (channel: 9)> Size: 72B
+array(['131A', '1600A', '1700A', '171A', '193A', '211A', '304A', '335A', '94A'],
+      dtype=object)
+Coordinates:
+  * channel  (channel) object 72B '131A' '1600A' '1700A' ... '304A' '335A' '94A'
+selected_channel=<xarray.DataArray 'DN' (time: 6130, x: 128, y: 128)> Size: 402MB
+[100433920 values with dtype=float32]
+Coordinates:
+  * time     (time) int32 25kB 0 1 2 3 4 5 6 ... 6124 6125 6126 6127 6128 6129
+  * x        (x) int32 512B 0 1 2 3 4 5 6 7 ... 120 121 122 123 124 125 126 127
+  * y        (y) int32 512B 0 1 2 3 4 5 6 7 ... 120 121 122 123 124 125 126 127
+    channel  <U4 16B '171A'
+cuda
+Input tensor shape: torch.Size([6130, 1, 128, 128])
+Target tensor shape: torch.Size([6130, 8, 128, 128])
+batch_size 64
+Epoch 1/200, Train Loss: 0.1133, Val Loss: 0.0073, Emissions: 0.0005 kgCO2eq
+Epoch 2/200, Train Loss: 0.0428, Val Loss: 0.0024, Emissions: 0.0010 kgCO2eq
+Epoch 3/200, Train Loss: 0.0157, Val Loss: 0.0017, Emissions: 0.0014 kgCO2eq
+Epoch 4/200, Train Loss: 0.0108, Val Loss: 0.0013, Emissions: 0.0019 kgCO2eq
+Epoch 5/200, Train Loss: 0.0097, Val Loss: 0.0012, Emissions: 0.0024 kgCO2eq
+Epoch 6/200, Train Loss: 0.0096, Val Loss: 0.0010, Emissions: 0.0029 kgCO2eq
+Epoch 7/200, Train Loss: 0.0080, Val Loss: 0.0009, Emissions: 0.0034 kgCO2eq
+Epoch 8/200, Train Loss: 0.0065, Val Loss: 0.0008, Emissions: 0.0039 kgCO2eq
+Epoch 9/200, Train Loss: 0.0061, Val Loss: 0.0008, Emissions: 0.0043 kgCO2eq
+Epoch 10/200, Train Loss: 0.0059, Val Loss: 0.0007, Emissions: 0.0048 kgCO2eq
+Epoch 11/200, Train Loss: 0.0064, Val Loss: 0.0008, Emissions: 0.0053 kgCO2eq
+Epoch 12/200, Train Loss: 0.0060, Val Loss: 0.0007, Emissions: 0.0058 kgCO2eq
+Epoch 13/200, Train Loss: 0.0055, Val Loss: 0.0007, Emissions: 0.0063 kgCO2eq
+Epoch 14/200, Train Loss: 0.0053, Val Loss: 0.0007, Emissions: 0.0067 kgCO2eq
+Epoch 15/200, Train Loss: 0.0054, Val Loss: 0.0007, Emissions: 0.0072 kgCO2eq
+Epoch 16/200, Train Loss: 0.0051, Val Loss: 0.0007, Emissions: 0.0077 kgCO2eq
+Epoch 17/200, Train Loss: 0.0054, Val Loss: 0.0007, Emissions: 0.0082 kgCO2eq
+Epoch 18/200, Train Loss: 0.0054, Val Loss: 0.0006, Emissions: 0.0086 kgCO2eq
+Epoch 19/200, Train Loss: 0.0048, Val Loss: 0.0006, Emissions: 0.0091 kgCO2eq
+Epoch 20/200, Train Loss: 0.0049, Val Loss: 0.0006, Emissions: 0.0096 kgCO2eq
+Epoch 21/200, Train Loss: 0.0048, Val Loss: 0.0006, Emissions: 0.0101 kgCO2eq
+Epoch 22/200, Train Loss: 0.0048, Val Loss: 0.0006, Emissions: 0.0105 kgCO2eq
+Epoch 23/200, Train Loss: 0.0046, Val Loss: 0.0006, Emissions: 0.0110 kgCO2eq
+Epoch 24/200, Train Loss: 0.0046, Val Loss: 0.0006, Emissions: 0.0115 kgCO2eq
+Epoch 25/200, Train Loss: 0.0045, Val Loss: 0.0006, Emissions: 0.0120 kgCO2eq
+Epoch 26/200, Train Loss: 0.0044, Val Loss: 0.0006, Emissions: 0.0125 kgCO2eq
+Epoch 27/200, Train Loss: 0.0043, Val Loss: 0.0006, Emissions: 0.0130 kgCO2eq
+Epoch 28/200, Train Loss: 0.0043, Val Loss: 0.0005, Emissions: 0.0135 kgCO2eq
+Epoch 29/200, Train Loss: 0.0043, Val Loss: 0.0005, Emissions: 0.0140 kgCO2eq
+Epoch 30/200, Train Loss: 0.0042, Val Loss: 0.0005, Emissions: 0.0145 kgCO2eq
+Epoch 31/200, Train Loss: 0.0041, Val Loss: 0.0005, Emissions: 0.0149 kgCO2eq
+Epoch 32/200, Train Loss: 0.0041, Val Loss: 0.0005, Emissions: 0.0154 kgCO2eq
+Epoch 33/200, Train Loss: 0.0041, Val Loss: 0.0005, Emissions: 0.0159 kgCO2eq
+Epoch 34/200, Train Loss: 0.0040, Val Loss: 0.0005, Emissions: 0.0164 kgCO2eq
+Epoch 35/200, Train Loss: 0.0039, Val Loss: 0.0005, Emissions: 0.0169 kgCO2eq
+Epoch 36/200, Train Loss: 0.0040, Val Loss: 0.0005, Emissions: 0.0174 kgCO2eq
+Epoch 37/200, Train Loss: 0.0038, Val Loss: 0.0005, Emissions: 0.0179 kgCO2eq
+Epoch 38/200, Train Loss: 0.0038, Val Loss: 0.0005, Emissions: 0.0184 kgCO2eq
+Epoch 39/200, Train Loss: 0.0039, Val Loss: 0.0005, Emissions: 0.0189 kgCO2eq
+Epoch 40/200, Train Loss: 0.0037, Val Loss: 0.0006, Emissions: 0.0194 kgCO2eq
+Epoch 41/200, Train Loss: 0.0037, Val Loss: 0.0005, Emissions: 0.0199 kgCO2eq
+Epoch 42/200, Train Loss: 0.0037, Val Loss: 0.0005, Emissions: 0.0204 kgCO2eq
+Epoch 43/200, Train Loss: 0.0036, Val Loss: 0.0005, Emissions: 0.0209 kgCO2eq
+Epoch 44/200, Train Loss: 0.0036, Val Loss: 0.0005, Emissions: 0.0213 kgCO2eq
+Epoch 45/200, Train Loss: 0.0035, Val Loss: 0.0005, Emissions: 0.0218 kgCO2eq
+Epoch 46/200, Train Loss: 0.0035, Val Loss: 0.0005, Emissions: 0.0223 kgCO2eq
+Epoch 47/200, Train Loss: 0.0035, Val Loss: 0.0004, Emissions: 0.0228 kgCO2eq
+Epoch 48/200, Train Loss: 0.0035, Val Loss: 0.0005, Emissions: 0.0233 kgCO2eq
+Epoch 49/200, Train Loss: 0.0034, Val Loss: 0.0005, Emissions: 0.0238 kgCO2eq
+Epoch 50/200, Train Loss: 0.0035, Val Loss: 0.0005, Emissions: 0.0243 kgCO2eq
+Epoch 51/200, Train Loss: 0.0034, Val Loss: 0.0005, Emissions: 0.0248 kgCO2eq
+Epoch 52/200, Train Loss: 0.0034, Val Loss: 0.0004, Emissions: 0.0253 kgCO2eq
+Epoch 53/200, Train Loss: 0.0033, Val Loss: 0.0005, Emissions: 0.0258 kgCO2eq
+Epoch 54/200, Train Loss: 0.0033, Val Loss: 0.0004, Emissions: 0.0263 kgCO2eq
+Epoch 55/200, Train Loss: 0.0033, Val Loss: 0.0004, Emissions: 0.0268 kgCO2eq
+Epoch 56/200, Train Loss: 0.0033, Val Loss: 0.0004, Emissions: 0.0273 kgCO2eq
+Epoch 57/200, Train Loss: 0.0032, Val Loss: 0.0004, Emissions: 0.0278 kgCO2eq
+Epoch 58/200, Train Loss: 0.0032, Val Loss: 0.0004, Emissions: 0.0283 kgCO2eq
+Epoch 59/200, Train Loss: 0.0032, Val Loss: 0.0004, Emissions: 0.0288 kgCO2eq
+Epoch 60/200, Train Loss: 0.0033, Val Loss: 0.0004, Emissions: 0.0293 kgCO2eq
+Epoch 61/200, Train Loss: 0.0032, Val Loss: 0.0004, Emissions: 0.0298 kgCO2eq
+Epoch 62/200, Train Loss: 0.0032, Val Loss: 0.0004, Emissions: 0.0303 kgCO2eq
+Epoch 63/200, Train Loss: 0.0031, Val Loss: 0.0004, Emissions: 0.0308 kgCO2eq
+Epoch 64/200, Train Loss: 0.0031, Val Loss: 0.0004, Emissions: 0.0313 kgCO2eq
+Epoch 65/200, Train Loss: 0.0032, Val Loss: 0.0004, Emissions: 0.0318 kgCO2eq
+Epoch 66/200, Train Loss: 0.0031, Val Loss: 0.0004, Emissions: 0.0323 kgCO2eq
+Epoch 67/200, Train Loss: 0.0031, Val Loss: 0.0004, Emissions: 0.0328 kgCO2eq
+Epoch 68/200, Train Loss: 0.0030, Val Loss: 0.0004, Emissions: 0.0332 kgCO2eq
+Epoch 69/200, Train Loss: 0.0030, Val Loss: 0.0004, Emissions: 0.0337 kgCO2eq
+Epoch 70/200, Train Loss: 0.0030, Val Loss: 0.0004, Emissions: 0.0342 kgCO2eq
+Epoch 71/200, Train Loss: 0.0030, Val Loss: 0.0004, Emissions: 0.0347 kgCO2eq
+Epoch 72/200, Train Loss: 0.0031, Val Loss: 0.0004, Emissions: 0.0352 kgCO2eq
+Epoch 73/200, Train Loss: 0.0031, Val Loss: 0.0004, Emissions: 0.0357 kgCO2eq
+Epoch 74/200, Train Loss: 0.0029, Val Loss: 0.0004, Emissions: 0.0362 kgCO2eq
+Epoch 75/200, Train Loss: 0.0029, Val Loss: 0.0004, Emissions: 0.0367 kgCO2eq
+Epoch 76/200, Train Loss: 0.0029, Val Loss: 0.0004, Emissions: 0.0372 kgCO2eq
+Epoch 77/200, Train Loss: 0.0029, Val Loss: 0.0004, Emissions: 0.0377 kgCO2eq
+Epoch 78/200, Train Loss: 0.0031, Val Loss: 0.0004, Emissions: 0.0382 kgCO2eq
+Epoch 79/200, Train Loss: 0.0028, Val Loss: 0.0004, Emissions: 0.0387 kgCO2eq
+Epoch 80/200, Train Loss: 0.0028, Val Loss: 0.0004, Emissions: 0.0392 kgCO2eq
+Epoch 81/200, Train Loss: 0.0028, Val Loss: 0.0003, Emissions: 0.0397 kgCO2eq
+Epoch 82/200, Train Loss: 0.0027, Val Loss: 0.0003, Emissions: 0.0402 kgCO2eq
+Epoch 83/200, Train Loss: 0.0028, Val Loss: 0.0004, Emissions: 0.0407 kgCO2eq
+Epoch 84/200, Train Loss: 0.0026, Val Loss: 0.0003, Emissions: 0.0411 kgCO2eq
+Epoch 85/200, Train Loss: 0.0027, Val Loss: 0.0003, Emissions: 0.0416 kgCO2eq
+Epoch 86/200, Train Loss: 0.0027, Val Loss: 0.0004, Emissions: 0.0421 kgCO2eq
+Epoch 87/200, Train Loss: 0.0027, Val Loss: 0.0003, Emissions: 0.0426 kgCO2eq
+Epoch 88/200, Train Loss: 0.0026, Val Loss: 0.0003, Emissions: 0.0431 kgCO2eq
+Epoch 89/200, Train Loss: 0.0026, Val Loss: 0.0003, Emissions: 0.0436 kgCO2eq
+Epoch 90/200, Train Loss: 0.0026, Val Loss: 0.0003, Emissions: 0.0441 kgCO2eq
+Epoch 91/200, Train Loss: 0.0026, Val Loss: 0.0004, Emissions: 0.0446 kgCO2eq
+Epoch 92/200, Train Loss: 0.0026, Val Loss: 0.0003, Emissions: 0.0451 kgCO2eq
+Epoch 93/200, Train Loss: 0.0026, Val Loss: 0.0003, Emissions: 0.0456 kgCO2eq
+Epoch 94/200, Train Loss: 0.0026, Val Loss: 0.0003, Emissions: 0.0461 kgCO2eq
+Epoch 95/200, Train Loss: 0.0026, Val Loss: 0.0003, Emissions: 0.0466 kgCO2eq
+Epoch 96/200, Train Loss: 0.0025, Val Loss: 0.0003, Emissions: 0.0470 kgCO2eq
+Epoch 97/200, Train Loss: 0.0025, Val Loss: 0.0003, Emissions: 0.0475 kgCO2eq
+Epoch 98/200, Train Loss: 0.0025, Val Loss: 0.0003, Emissions: 0.0480 kgCO2eq
+Epoch 99/200, Train Loss: 0.0025, Val Loss: 0.0003, Emissions: 0.0485 kgCO2eq
+Epoch 100/200, Train Loss: 0.0025, Val Loss: 0.0003, Emissions: 0.0490 kgCO2eq
+Epoch 101/200, Train Loss: 0.0025, Val Loss: 0.0003, Emissions: 0.0495 kgCO2eq
+Epoch 102/200, Train Loss: 0.0025, Val Loss: 0.0003, Emissions: 0.0500 kgCO2eq
+Epoch 103/200, Train Loss: 0.0025, Val Loss: 0.0003, Emissions: 0.0505 kgCO2eq
+Epoch 104/200, Train Loss: 0.0025, Val Loss: 0.0003, Emissions: 0.0509 kgCO2eq
+Epoch 105/200, Train Loss: 0.0025, Val Loss: 0.0003, Emissions: 0.0514 kgCO2eq
+Epoch 106/200, Train Loss: 0.0025, Val Loss: 0.0003, Emissions: 0.0519 kgCO2eq
+Epoch 107/200, Train Loss: 0.0025, Val Loss: 0.0003, Emissions: 0.0524 kgCO2eq
+Epoch 108/200, Train Loss: 0.0024, Val Loss: 0.0003, Emissions: 0.0529 kgCO2eq
+Epoch 109/200, Train Loss: 0.0024, Val Loss: 0.0003, Emissions: 0.0534 kgCO2eq
+Epoch 110/200, Train Loss: 0.0025, Val Loss: 0.0003, Emissions: 0.0539 kgCO2eq
+Epoch 111/200, Train Loss: 0.0024, Val Loss: 0.0003, Emissions: 0.0544 kgCO2eq
+Epoch 112/200, Train Loss: 0.0028, Val Loss: 0.0003, Emissions: 0.0549 kgCO2eq
+Epoch 113/200, Train Loss: 0.0024, Val Loss: 0.0003, Emissions: 0.0554 kgCO2eq
+Epoch 114/200, Train Loss: 0.0025, Val Loss: 0.0003, Emissions: 0.0559 kgCO2eq
+Epoch 115/200, Train Loss: 0.0024, Val Loss: 0.0003, Emissions: 0.0564 kgCO2eq
+Epoch 116/200, Train Loss: 0.0024, Val Loss: 0.0003, Emissions: 0.0569 kgCO2eq
+Epoch 117/200, Train Loss: 0.0024, Val Loss: 0.0003, Emissions: 0.0574 kgCO2eq
+Epoch 118/200, Train Loss: 0.0024, Val Loss: 0.0003, Emissions: 0.0579 kgCO2eq
+Epoch 119/200, Train Loss: 0.0024, Val Loss: 0.0003, Emissions: 0.0584 kgCO2eq
+Epoch 120/200, Train Loss: 0.0023, Val Loss: 0.0003, Emissions: 0.0589 kgCO2eq
+Epoch 121/200, Train Loss: 0.0024, Val Loss: 0.0003, Emissions: 0.0594 kgCO2eq
+Epoch 122/200, Train Loss: 0.0023, Val Loss: 0.0003, Emissions: 0.0599 kgCO2eq
+Epoch 123/200, Train Loss: 0.0024, Val Loss: 0.0003, Emissions: 0.0604 kgCO2eq
+Epoch 124/200, Train Loss: 0.0023, Val Loss: 0.0003, Emissions: 0.0609 kgCO2eq
+Epoch 125/200, Train Loss: 0.0023, Val Loss: 0.0003, Emissions: 0.0614 kgCO2eq
+Epoch 126/200, Train Loss: 0.0023, Val Loss: 0.0003, Emissions: 0.0619 kgCO2eq
+Epoch 127/200, Train Loss: 0.0023, Val Loss: 0.0003, Emissions: 0.0624 kgCO2eq
+Epoch 128/200, Train Loss: 0.0023, Val Loss: 0.0003, Emissions: 0.0629 kgCO2eq
+Epoch 129/200, Train Loss: 0.0023, Val Loss: 0.0003, Emissions: 0.0634 kgCO2eq
+Epoch 130/200, Train Loss: 0.0023, Val Loss: 0.0003, Emissions: 0.0639 kgCO2eq
+Epoch 131/200, Train Loss: 0.0023, Val Loss: 0.0003, Emissions: 0.0644 kgCO2eq
+Epoch 132/200, Train Loss: 0.0023, Val Loss: 0.0003, Emissions: 0.0649 kgCO2eq
+Epoch 133/200, Train Loss: 0.0023, Val Loss: 0.0003, Emissions: 0.0654 kgCO2eq
+Epoch 134/200, Train Loss: 0.0022, Val Loss: 0.0003, Emissions: 0.0659 kgCO2eq
+Epoch 135/200, Train Loss: 0.0023, Val Loss: 0.0003, Emissions: 0.0664 kgCO2eq
+Epoch 136/200, Train Loss: 0.0022, Val Loss: 0.0003, Emissions: 0.0669 kgCO2eq
+Epoch 137/200, Train Loss: 0.0024, Val Loss: 0.0003, Emissions: 0.0674 kgCO2eq
+Epoch 138/200, Train Loss: 0.0024, Val Loss: 0.0003, Emissions: 0.0679 kgCO2eq
+Epoch 139/200, Train Loss: 0.0022, Val Loss: 0.0003, Emissions: 0.0683 kgCO2eq
+Epoch 140/200, Train Loss: 0.0022, Val Loss: 0.0003, Emissions: 0.0688 kgCO2eq
+Epoch 141/200, Train Loss: 0.0022, Val Loss: 0.0003, Emissions: 0.0693 kgCO2eq
+Epoch 142/200, Train Loss: 0.0022, Val Loss: 0.0003, Emissions: 0.0698 kgCO2eq
+Epoch 143/200, Train Loss: 0.0022, Val Loss: 0.0003, Emissions: 0.0703 kgCO2eq
+Epoch 144/200, Train Loss: 0.0022, Val Loss: 0.0003, Emissions: 0.0708 kgCO2eq
+Epoch 145/200, Train Loss: 0.0022, Val Loss: 0.0003, Emissions: 0.0713 kgCO2eq
+Epoch 146/200, Train Loss: 0.0022, Val Loss: 0.0003, Emissions: 0.0718 kgCO2eq
+Epoch 147/200, Train Loss: 0.0022, Val Loss: 0.0003, Emissions: 0.0723 kgCO2eq
+Epoch 148/200, Train Loss: 0.0022, Val Loss: 0.0003, Emissions: 0.0728 kgCO2eq
+Epoch 149/200, Train Loss: 0.0022, Val Loss: 0.0003, Emissions: 0.0733 kgCO2eq
+Epoch 150/200, Train Loss: 0.0022, Val Loss: 0.0003, Emissions: 0.0738 kgCO2eq
+Epoch 151/200, Train Loss: 0.0022, Val Loss: 0.0003, Emissions: 0.0743 kgCO2eq
+Epoch 152/200, Train Loss: 0.0022, Val Loss: 0.0003, Emissions: 0.0748 kgCO2eq
+Epoch 153/200, Train Loss: 0.0022, Val Loss: 0.0003, Emissions: 0.0753 kgCO2eq
+Epoch 154/200, Train Loss: 0.0022, Val Loss: 0.0003, Emissions: 0.0758 kgCO2eq
+Epoch 155/200, Train Loss: 0.0022, Val Loss: 0.0003, Emissions: 0.0763 kgCO2eq
+Epoch 156/200, Train Loss: 0.0022, Val Loss: 0.0003, Emissions: 0.0768 kgCO2eq
+Epoch 157/200, Train Loss: 0.0021, Val Loss: 0.0003, Emissions: 0.0772 kgCO2eq
+Epoch 158/200, Train Loss: 0.0021, Val Loss: 0.0003, Emissions: 0.0777 kgCO2eq
+Epoch 159/200, Train Loss: 0.0022, Val Loss: 0.0003, Emissions: 0.0782 kgCO2eq
+Epoch 160/200, Train Loss: 0.0022, Val Loss: 0.0003, Emissions: 0.0787 kgCO2eq
+Epoch 161/200, Train Loss: 0.0021, Val Loss: 0.0003, Emissions: 0.0792 kgCO2eq
+Epoch 162/200, Train Loss: 0.0022, Val Loss: 0.0003, Emissions: 0.0797 kgCO2eq
+Epoch 163/200, Train Loss: 0.0021, Val Loss: 0.0003, Emissions: 0.0802 kgCO2eq
+Epoch 164/200, Train Loss: 0.0021, Val Loss: 0.0003, Emissions: 0.0807 kgCO2eq
+Epoch 165/200, Train Loss: 0.0021, Val Loss: 0.0003, Emissions: 0.0812 kgCO2eq
+Epoch 166/200, Train Loss: 0.0021, Val Loss: 0.0003, Emissions: 0.0817 kgCO2eq
+Epoch 167/200, Train Loss: 0.0021, Val Loss: 0.0003, Emissions: 0.0822 kgCO2eq
+Epoch 168/200, Train Loss: 0.0021, Val Loss: 0.0003, Emissions: 0.0826 kgCO2eq
+Epoch 169/200, Train Loss: 0.0021, Val Loss: 0.0003, Emissions: 0.0831 kgCO2eq
+Epoch 170/200, Train Loss: 0.0021, Val Loss: 0.0003, Emissions: 0.0836 kgCO2eq
+Epoch 171/200, Train Loss: 0.0021, Val Loss: 0.0003, Emissions: 0.0841 kgCO2eq
+Epoch 172/200, Train Loss: 0.0021, Val Loss: 0.0003, Emissions: 0.0846 kgCO2eq
+Epoch 173/200, Train Loss: 0.0021, Val Loss: 0.0003, Emissions: 0.0851 kgCO2eq
+Epoch 174/200, Train Loss: 0.0021, Val Loss: 0.0003, Emissions: 0.0856 kgCO2eq
+Epoch 175/200, Train Loss: 0.0021, Val Loss: 0.0003, Emissions: 0.0861 kgCO2eq
+Epoch 176/200, Train Loss: 0.0021, Val Loss: 0.0003, Emissions: 0.0866 kgCO2eq
+Epoch 177/200, Train Loss: 0.0021, Val Loss: 0.0003, Emissions: 0.0871 kgCO2eq
+Epoch 178/200, Train Loss: 0.0021, Val Loss: 0.0003, Emissions: 0.0875 kgCO2eq
+Epoch 179/200, Train Loss: 0.0021, Val Loss: 0.0003, Emissions: 0.0880 kgCO2eq
+Epoch 180/200, Train Loss: 0.0021, Val Loss: 0.0003, Emissions: 0.0885 kgCO2eq
+Epoch 181/200, Train Loss: 0.0021, Val Loss: 0.0003, Emissions: 0.0890 kgCO2eq
+Epoch 182/200, Train Loss: 0.0021, Val Loss: 0.0003, Emissions: 0.0895 kgCO2eq
+Epoch 183/200, Train Loss: 0.0021, Val Loss: 0.0003, Emissions: 0.0900 kgCO2eq
+Epoch 184/200, Train Loss: 0.0021, Val Loss: 0.0003, Emissions: 0.0905 kgCO2eq
+Epoch 185/200, Train Loss: 0.0021, Val Loss: 0.0003, Emissions: 0.0910 kgCO2eq
+Epoch 186/200, Train Loss: 0.0021, Val Loss: 0.0003, Emissions: 0.0915 kgCO2eq
+Epoch 187/200, Train Loss: 0.0020, Val Loss: 0.0003, Emissions: 0.0920 kgCO2eq
+Epoch 188/200, Train Loss: 0.0020, Val Loss: 0.0003, Emissions: 0.0925 kgCO2eq
+Epoch 189/200, Train Loss: 0.0020, Val Loss: 0.0003, Emissions: 0.0930 kgCO2eq
+Epoch 190/200, Train Loss: 0.0020, Val Loss: 0.0003, Emissions: 0.0934 kgCO2eq
+Epoch 191/200, Train Loss: 0.0020, Val Loss: 0.0003, Emissions: 0.0939 kgCO2eq
+Epoch 192/200, Train Loss: 0.0020, Val Loss: 0.0003, Emissions: 0.0944 kgCO2eq
+Epoch 193/200, Train Loss: 0.0021, Val Loss: 0.0003, Emissions: 0.0949 kgCO2eq
+Epoch 194/200, Train Loss: 0.0021, Val Loss: 0.0003, Emissions: 0.0954 kgCO2eq
+Epoch 195/200, Train Loss: 0.0022, Val Loss: 0.0003, Emissions: 0.0959 kgCO2eq
+Epoch 196/200, Train Loss: 0.0020, Val Loss: 0.0003, Emissions: 0.0964 kgCO2eq
+Epoch 197/200, Train Loss: 0.0020, Val Loss: 0.0003, Emissions: 0.0969 kgCO2eq
+Epoch 198/200, Train Loss: 0.0020, Val Loss: 0.0003, Emissions: 0.0974 kgCO2eq
+Epoch 199/200, Train Loss: 0.0020, Val Loss: 0.0003, Emissions: 0.0979 kgCO2eq
+Epoch 200/200, Train Loss: 0.0020, Val Loss: 0.0003, Emissions: 0.0984 kgCO2eq
+Avg PSNR per channel: [73.69293905 59.9900493  40.82283145 49.57149874 50.55313786 58.12278407
+ 55.00362335 72.10054709]
+Avg SSIM per channel: [0.99989134 0.99855959 0.93313622 0.99064255 0.9936288  0.99785745
+ 0.9951843  0.99981004]
+Overall Avg PSNR: 57.4822, Overall Avg SSIM: 0.9886

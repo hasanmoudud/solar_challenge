@@ -1,0 +1,128 @@
+2025-05-08 21:52:18.027917: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:485] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-05-08 21:52:18.050698: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:8454] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-05-08 21:52:18.057533: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1452] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+[codecarbon WARNING @ 21:52:52] Multiple instances of codecarbon are allowed to run at the same time.
+[codecarbon INFO @ 21:52:52] [setup] RAM Tracking...
+[codecarbon INFO @ 21:52:52] [setup] CPU Tracking...
+[codecarbon WARNING @ 21:52:54] No CPU tracking mode found. Falling back on estimation based on TDP for CPU. 
+ Linux OS detected: Please ensure RAPL files exist at /sys/class/powercap/intel-rapl/subsystem to measure CPU
+
+[codecarbon INFO @ 21:52:54] CPU Model on constant consumption mode: AMD EPYC 7352 24-Core Processor
+[codecarbon WARNING @ 21:52:54] No CPU tracking mode found. Falling back on CPU load mode.
+[codecarbon INFO @ 21:52:54] [setup] GPU Tracking...
+[codecarbon INFO @ 21:52:54] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 21:52:54] GPU number 1 will not be monitored, at your request.
+[codecarbon WARNING @ 21:52:54] You have 2 GPUs but we will monitor only 1 of them. Check your configuration.
+[codecarbon INFO @ 21:52:54] The below tracking methods have been set up:
+                RAM Tracking Method: RAM power estimation model
+                CPU Tracking Method: cpu_load
+                GPU Tracking Method: pynvml
+            
+[codecarbon INFO @ 21:52:54] >>> Tracker's metadata:
+[codecarbon INFO @ 21:52:54]   Platform system: Linux-6.8.0-57-generic-x86_64-with-glibc2.39
+[codecarbon INFO @ 21:52:54]   Python version: 3.12.3
+[codecarbon INFO @ 21:52:54]   CodeCarbon version: 3.0.0
+[codecarbon INFO @ 21:52:54]   Available RAM : 125.647 GB
+[codecarbon INFO @ 21:52:54]   CPU count: 48 thread(s) in 1 physical CPU(s)
+[codecarbon INFO @ 21:52:54]   CPU model: AMD EPYC 7352 24-Core Processor
+[codecarbon INFO @ 21:52:54]   GPU count: 1
+[codecarbon INFO @ 21:52:54]   GPU model: 2 x NVIDIA GeForce GTX 1080 BUT only tracking these GPU ids : [0]
+[codecarbon INFO @ 21:52:55] Emissions data (if any) will be saved to file /home/hasanmoudud/solar_challenge/emissions.csv
+[codecarbon WARNING @ 21:52:55] Multiple instances of codecarbon are allowed to run at the same time.
+[codecarbon INFO @ 21:52:55] [setup] RAM Tracking...
+[codecarbon INFO @ 21:52:55] [setup] CPU Tracking...
+[codecarbon WARNING @ 21:52:57] No CPU tracking mode found. Falling back on estimation based on TDP for CPU. 
+ Linux OS detected: Please ensure RAPL files exist at /sys/class/powercap/intel-rapl/subsystem to measure CPU
+
+[codecarbon INFO @ 21:52:57] CPU Model on constant consumption mode: AMD EPYC 7352 24-Core Processor
+[codecarbon WARNING @ 21:52:57] No CPU tracking mode found. Falling back on CPU load mode.
+[codecarbon INFO @ 21:52:57] [setup] GPU Tracking...
+[codecarbon INFO @ 21:52:57] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 21:52:57] GPU number 1 will not be monitored, at your request.
+[codecarbon WARNING @ 21:52:57] You have 2 GPUs but we will monitor only 1 of them. Check your configuration.
+[codecarbon INFO @ 21:52:57] The below tracking methods have been set up:
+                RAM Tracking Method: RAM power estimation model
+                CPU Tracking Method: cpu_load
+                GPU Tracking Method: pynvml
+            
+[codecarbon INFO @ 21:52:57] >>> Tracker's metadata:
+[codecarbon INFO @ 21:52:57]   Platform system: Linux-6.8.0-57-generic-x86_64-with-glibc2.39
+[codecarbon INFO @ 21:52:57]   Python version: 3.12.3
+[codecarbon INFO @ 21:52:57]   CodeCarbon version: 3.0.0
+[codecarbon INFO @ 21:52:57]   Available RAM : 125.647 GB
+[codecarbon INFO @ 21:52:57]   CPU count: 48 thread(s) in 1 physical CPU(s)
+[codecarbon INFO @ 21:52:57]   CPU model: AMD EPYC 7352 24-Core Processor
+[codecarbon INFO @ 21:52:57]   GPU count: 1
+[codecarbon INFO @ 21:52:57]   GPU model: 2 x NVIDIA GeForce GTX 1080 BUT only tracking these GPU ids : [0]
+[codecarbon INFO @ 21:52:58] Emissions data (if any) will be saved to file /home/hasanmoudud/solar_challenge/emissions.csv
+[codecarbon INFO @ 21:53:10] Energy consumed for RAM : 0.000164 kWh. RAM Power : 38.0 W
+[codecarbon INFO @ 21:53:11] Delta energy consumed for CPU with cpu_load : 0.000067 kWh, power : 15.5 W
+[codecarbon INFO @ 21:53:11] Energy consumed for All CPU : 0.000067 kWh
+[codecarbon INFO @ 21:53:11] GPU number 1 will not be monitored, at your request.
+[codecarbon INFO @ 21:53:11] Energy consumed for all GPUs : 0.000571 kWh. Total GPU Power : 128.3301805088421 W
+[codecarbon INFO @ 21:53:11] 0.000801 kWh of electricity used since the beginning.
+[codecarbon INFO @ 21:53:13] Energy consumed for RAM : 0.000164 kWh. RAM Power : 38.0 W
+[codecarbon INFO @ 21:53:14] Delta energy consumed for CPU with cpu_load : 0.000067 kWh, power : 15.5 W
+[codecarbon INFO @ 21:53:14] Energy consumed for All CPU : 0.000067 kWh
+[codecarbon INFO @ 21:53:14] GPU number 1 will not be monitored, at your request.
+[codecarbon INFO @ 21:53:14] Energy consumed for all GPUs : 0.000672 kWh. Total GPU Power : 151.09154333741134 W
+[codecarbon INFO @ 21:53:14] 0.000902 kWh of electricity used since the beginning.
+[codecarbon INFO @ 21:53:21] Energy consumed for RAM : 0.000241 kWh. RAM Power : 38.0 W
+[codecarbon INFO @ 21:53:22] Delta energy consumed for CPU with cpu_load : 0.000032 kWh, power : 15.5 W
+[codecarbon INFO @ 21:53:22] Energy consumed for All CPU : 0.000098 kWh
+[codecarbon INFO @ 21:53:22] GPU number 1 will not be monitored, at your request.
+[codecarbon INFO @ 21:53:22] Energy consumed for all GPUs : 0.001005 kWh. Total GPU Power : 152.93606843851555 W
+[codecarbon INFO @ 21:53:22] 0.001344 kWh of electricity used since the beginning.
+[codecarbon WARNING @ 21:53:22] Already started tracking
+[codecarbon INFO @ 21:53:25] Energy consumed for RAM : 0.000317 kWh. RAM Power : 38.0 W
+[codecarbon INFO @ 21:53:26] Delta energy consumed for CPU with cpu_load : 0.000062 kWh, power : 15.5 W
+[codecarbon INFO @ 21:53:26] Energy consumed for All CPU : 0.000129 kWh
+[codecarbon INFO @ 21:53:26] GPU number 1 will not be monitored, at your request.
+[codecarbon INFO @ 21:53:26] Energy consumed for all GPUs : 0.001221 kWh. Total GPU Power : 156.02549031988755 W
+[codecarbon INFO @ 21:53:26] 0.001666 kWh of electricity used since the beginning.
+[codecarbon INFO @ 21:53:40] Energy consumed for RAM : 0.000470 kWh. RAM Power : 38.0 W
+[codecarbon INFO @ 21:53:41] Delta energy consumed for CPU with cpu_load : 0.000062 kWh, power : 15.5 W
+[codecarbon INFO @ 21:53:41] Energy consumed for All CPU : 0.000192 kWh
+[codecarbon INFO @ 21:53:41] GPU number 1 will not be monitored, at your request.
+[codecarbon INFO @ 21:53:41] Energy consumed for all GPUs : 0.001895 kWh. Total GPU Power : 161.79407467074276 W
+[codecarbon INFO @ 21:53:41] 0.002556 kWh of electricity used since the beginning.
+[codecarbon WARNING @ 21:53:44] Tracker already stopped !
+[codecarbon INFO @ 21:53:44] Energy consumed for RAM : 0.000478 kWh. RAM Power : 38.0 W
+[codecarbon INFO @ 21:53:45] Delta energy consumed for CPU with cpu_load : 0.000097 kWh, power : 15.5 W
+[codecarbon INFO @ 21:53:45] Energy consumed for All CPU : 0.000195 kWh
+[codecarbon INFO @ 21:53:45] GPU number 1 will not be monitored, at your request.
+[codecarbon INFO @ 21:53:45] Energy consumed for all GPUs : 0.002019 kWh. Total GPU Power : 159.01697248509524 W
+[codecarbon INFO @ 21:53:45] 0.002692 kWh of electricity used since the beginning.
+[codecarbon WARNING @ 21:53:45] Already started tracking
+[codecarbon INFO @ 21:53:55] Energy consumed for RAM : 0.000623 kWh. RAM Power : 38.0 W
+[codecarbon INFO @ 21:53:56] Delta energy consumed for CPU with cpu_load : 0.000062 kWh, power : 15.5 W
+[codecarbon INFO @ 21:53:56] Energy consumed for All CPU : 0.000254 kWh
+[codecarbon INFO @ 21:53:56] GPU number 1 will not be monitored, at your request.
+[codecarbon INFO @ 21:53:56] Energy consumed for all GPUs : 0.002559 kWh. Total GPU Power : 159.50213538371028 W
+[codecarbon INFO @ 21:53:56] 0.003436 kWh of electricity used since the beginning.
+[codecarbon WARNING @ 21:54:07] Tracker already stopped !
+[codecarbon INFO @ 21:54:07] Energy consumed for RAM : 0.000715 kWh. RAM Power : 38.0 W
+[codecarbon INFO @ 21:54:08] Delta energy consumed for CPU with cpu_load : 0.000097 kWh, power : 15.5 W
+[codecarbon INFO @ 21:54:08] Energy consumed for All CPU : 0.000292 kWh
+[codecarbon INFO @ 21:54:08] GPU number 1 will not be monitored, at your request.
+[codecarbon INFO @ 21:54:08] Energy consumed for all GPUs : 0.003040 kWh. Total GPU Power : 160.11658709090358 W
+[codecarbon INFO @ 21:54:08] 0.004047 kWh of electricity used since the beginning.
+[codecarbon WARNING @ 21:54:08] Already started tracking
+[codecarbon WARNING @ 21:54:08] Tracker already stopped !
+[codecarbon INFO @ 21:54:08] Energy consumed for RAM : 0.000715 kWh. RAM Power : 38.0 W
+[codecarbon INFO @ 21:54:08] Delta energy consumed for CPU with cpu_load : 0.000000 kWh, power : 15.5 W
+[codecarbon INFO @ 21:54:08] Energy consumed for All CPU : 0.000292 kWh
+[codecarbon INFO @ 21:54:08] GPU number 1 will not be monitored, at your request.
+[codecarbon INFO @ 21:54:08] Energy consumed for all GPUs : 0.003048 kWh. Total GPU Power : 50.719142379657875 W
+[codecarbon INFO @ 21:54:08] 0.004055 kWh of electricity used since the beginning.
+[codecarbon INFO @ 21:54:08] 
+Graceful stopping: collecting and writing information.
+Please wait a few seconds...
+[codecarbon INFO @ 21:54:08] Energy consumed for RAM : 0.000752 kWh. RAM Power : 38.0 W
+[codecarbon INFO @ 21:54:09] Delta energy consumed for CPU with cpu_load : 0.000053 kWh, power : 15.5 W
+[codecarbon INFO @ 21:54:09] Energy consumed for All CPU : 0.000307 kWh
+[codecarbon INFO @ 21:54:09] GPU number 1 will not be monitored, at your request.
+[codecarbon INFO @ 21:54:09] Energy consumed for all GPUs : 0.003085 kWh. Total GPU Power : 148.287897480187 W
+[codecarbon INFO @ 21:54:09] 0.004143 kWh of electricity used since the beginning.
+[codecarbon INFO @ 21:54:09] Done!
+

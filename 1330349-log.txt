@@ -1,0 +1,44 @@
+000 (1330349.000.000) 2025-05-08 21:51:29 Job submitted from host: <134.61.19.51:9618?addrs=134.61.19.51-9618&alias=vispa-portal2.physik.rwth-aachen.de&noUDP&sock=schedd_3171540_3899>
+...
+001 (1330349.000.000) 2025-05-08 21:51:30 Job executing on host: <134.61.19.41:9618?addrs=134.61.19.41-9618&alias=vispa-gpu01.physik.rwth-aachen.de&noUDP&sock=startd_2372_92bc>
+	SlotName: slot1_4@vispa-gpu01.physik.rwth-aachen.de
+	CondorScratchDir = "/var/lib/condor/execute/dir_374830"
+	Cpus = 1
+	Disk = 11264
+	GpuMemory = 8000
+	GpuMemory0 = 8000
+	GpuMemory1 = 0
+	GPUs = 0
+	Memory = 16000
+...
+006 (1330349.000.000) 2025-05-08 21:51:33 Image size of job updated: 278244
+	272  -  MemoryUsage of job (MB)
+	278244  -  ResidentSetSize of job (KB)
+...
+006 (1330349.000.000) 2025-05-08 21:51:44 Image size of job updated: 5488400
+	4083  -  MemoryUsage of job (MB)
+	4180324  -  ResidentSetSize of job (KB)
+...
+005 (1330349.000.000) 2025-05-08 21:51:52 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:12, Sys 0 00:00:06  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:12, Sys 0 00:00:06  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :    10000    10000     11264 
+	   GpuMemory            :              8000      8000 
+	   GpuMemory0           :                        8000 
+	   GpuMemory1           :                           0 
+	   GPUs                 :                 0         0 
+	   Memory (MB)          :     4083    16000     16000 
+	   TimeExecute (s)      :       22                    
+	   TimeSlotBusy (s)     :       22                    
+
+	Job terminated of its own accord at 2025-05-08T19:51:52Z with exit-code 1.
+...

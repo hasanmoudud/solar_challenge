@@ -1,0 +1,90 @@
+2025-05-08 21:51:34.986461: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:485] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-05-08 21:51:35.008399: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:8454] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-05-08 21:51:35.015142: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1452] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+[codecarbon WARNING @ 21:51:43] Multiple instances of codecarbon are allowed to run at the same time.
+[codecarbon INFO @ 21:51:43] [setup] RAM Tracking...
+[codecarbon INFO @ 21:51:43] [setup] CPU Tracking...
+[codecarbon WARNING @ 21:51:44] No CPU tracking mode found. Falling back on estimation based on TDP for CPU. 
+ Linux OS detected: Please ensure RAPL files exist at /sys/class/powercap/intel-rapl/subsystem to measure CPU
+
+[codecarbon INFO @ 21:51:44] CPU Model on constant consumption mode: AMD EPYC 7352 24-Core Processor
+[codecarbon WARNING @ 21:51:44] No CPU tracking mode found. Falling back on CPU load mode.
+[codecarbon INFO @ 21:51:44] [setup] GPU Tracking...
+[codecarbon INFO @ 21:51:44] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 21:51:44] GPU number 1 will not be monitored, at your request.
+[codecarbon WARNING @ 21:51:44] You have 2 GPUs but we will monitor only 1 of them. Check your configuration.
+[codecarbon INFO @ 21:51:44] The below tracking methods have been set up:
+                RAM Tracking Method: RAM power estimation model
+                CPU Tracking Method: cpu_load
+                GPU Tracking Method: pynvml
+            
+[codecarbon INFO @ 21:51:44] >>> Tracker's metadata:
+[codecarbon INFO @ 21:51:44]   Platform system: Linux-6.8.0-59-generic-x86_64-with-glibc2.39
+[codecarbon INFO @ 21:51:44]   Python version: 3.12.3
+[codecarbon INFO @ 21:51:44]   CodeCarbon version: 3.0.0
+[codecarbon INFO @ 21:51:44]   Available RAM : 125.647 GB
+[codecarbon INFO @ 21:51:44]   CPU count: 48 thread(s) in 1 physical CPU(s)
+[codecarbon INFO @ 21:51:44]   CPU model: AMD EPYC 7352 24-Core Processor
+[codecarbon INFO @ 21:51:44]   GPU count: 1
+[codecarbon INFO @ 21:51:44]   GPU model: 2 x NVIDIA GeForce GTX 1080 BUT only tracking these GPU ids : [0]
+[codecarbon INFO @ 21:51:46] Emissions data (if any) will be saved to file /home/hasanmoudud/solar_challenge/emissions.csv
+[codecarbon WARNING @ 21:51:46] Multiple instances of codecarbon are allowed to run at the same time.
+[codecarbon INFO @ 21:51:46] [setup] RAM Tracking...
+[codecarbon INFO @ 21:51:46] [setup] CPU Tracking...
+[codecarbon WARNING @ 21:51:47] No CPU tracking mode found. Falling back on estimation based on TDP for CPU. 
+ Linux OS detected: Please ensure RAPL files exist at /sys/class/powercap/intel-rapl/subsystem to measure CPU
+
+[codecarbon INFO @ 21:51:47] CPU Model on constant consumption mode: AMD EPYC 7352 24-Core Processor
+[codecarbon WARNING @ 21:51:47] No CPU tracking mode found. Falling back on CPU load mode.
+[codecarbon INFO @ 21:51:47] [setup] GPU Tracking...
+[codecarbon INFO @ 21:51:47] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 21:51:47] GPU number 1 will not be monitored, at your request.
+[codecarbon WARNING @ 21:51:47] You have 2 GPUs but we will monitor only 1 of them. Check your configuration.
+[codecarbon INFO @ 21:51:47] The below tracking methods have been set up:
+                RAM Tracking Method: RAM power estimation model
+                CPU Tracking Method: cpu_load
+                GPU Tracking Method: pynvml
+            
+[codecarbon INFO @ 21:51:47] >>> Tracker's metadata:
+[codecarbon INFO @ 21:51:47]   Platform system: Linux-6.8.0-59-generic-x86_64-with-glibc2.39
+[codecarbon INFO @ 21:51:47]   Python version: 3.12.3
+[codecarbon INFO @ 21:51:47]   CodeCarbon version: 3.0.0
+[codecarbon INFO @ 21:51:47]   Available RAM : 125.647 GB
+[codecarbon INFO @ 21:51:47]   CPU count: 48 thread(s) in 1 physical CPU(s)
+[codecarbon INFO @ 21:51:47]   CPU model: AMD EPYC 7352 24-Core Processor
+[codecarbon INFO @ 21:51:47]   GPU count: 1
+[codecarbon INFO @ 21:51:47]   GPU model: 2 x NVIDIA GeForce GTX 1080 BUT only tracking these GPU ids : [0]
+[codecarbon INFO @ 21:51:48] Emissions data (if any) will be saved to file /home/hasanmoudud/solar_challenge/emissions.csv
+[codecarbon INFO @ 21:51:49] 
+Graceful stopping: collecting and writing information.
+Please wait a few seconds...
+[codecarbon INFO @ 21:51:49] Energy consumed for RAM : 0.000040 kWh. RAM Power : 38.0 W
+[codecarbon INFO @ 21:51:50] Delta energy consumed for CPU with cpu_load : 0.000017 kWh, power : 15.771250000000004 W
+[codecarbon INFO @ 21:51:50] Energy consumed for All CPU : 0.000017 kWh
+[codecarbon INFO @ 21:51:50] GPU number 1 will not be monitored, at your request.
+[codecarbon INFO @ 21:51:50] Energy consumed for all GPUs : 0.000044 kWh. Total GPU Power : 36.395485883616956 W
+[codecarbon INFO @ 21:51:50] 0.000101 kWh of electricity used since the beginning.
+[codecarbon INFO @ 21:51:50] Done!
+
+Traceback (most recent call last):
+  File "/home/hasanmoudud/solar_challenge/solar.py", line 178, in <module>
+    train_model(model, train_loader, val_loader, epochs=40)
+  File "/software/python/lib/python3.12/site-packages/codecarbon/emissions_tracker.py", line 1172, in wrapped_fn
+    fn_result = fn(*args, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^
+  File "/home/hasanmoudud/solar_challenge/solar.py", line 150, in train_model
+    loss = combined_loss(output, y_batch)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hasanmoudud/solar_challenge/solar.py", line 130, in combined_loss
+    ssim_loss = 1 - ssim(output, target, data_range=1.0)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hasanmoudud/.local/lib/python3.12/site-packages/pytorch_msssim/ssim.py", line 154, in ssim
+    ssim_per_channel, cs = _ssim(X, Y, data_range=data_range, win=win, size_average=False, K=K)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hasanmoudud/.local/lib/python3.12/site-packages/pytorch_msssim/ssim.py", line 94, in _ssim
+    sigma2_sq = compensation * (gaussian_filter(Y * Y, win) - mu2_sq)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hasanmoudud/.local/lib/python3.12/site-packages/pytorch_msssim/ssim.py", line 48, in gaussian_filter
+    out = conv(out, weight=win.transpose(2 + i, -1), stride=1, padding=0, groups=C)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 56.00 MiB. GPU 0 has a total capacity of 7.92 GiB of which 30.69 MiB is free. Including non-PyTorch memory, this process has 7.88 GiB memory in use. Of the allocated memory 7.64 GiB is allocated by PyTorch, and 127.23 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

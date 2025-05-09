@@ -1,0 +1,27 @@
+ds.channel=<xarray.DataArray 'channel' (channel: 9)> Size: 72B
+array(['131A', '1600A', '1700A', '171A', '193A', '211A', '304A', '335A', '94A'],
+      dtype=object)
+Coordinates:
+  * channel  (channel) object 72B '131A' '1600A' '1700A' ... '304A' '335A' '94A'
+selected_channel=<xarray.DataArray 'DN' (time: 6130, x: 128, y: 128)> Size: 402MB
+[100433920 values with dtype=float32]
+Coordinates:
+  * time     (time) int32 25kB 0 1 2 3 4 5 6 ... 6124 6125 6126 6127 6128 6129
+  * x        (x) int32 512B 0 1 2 3 4 5 6 7 ... 120 121 122 123 124 125 126 127
+  * y        (y) int32 512B 0 1 2 3 4 5 6 7 ... 120 121 122 123 124 125 126 127
+    channel  <U4 16B '171A'
+cuda
+Input tensor shape: torch.Size([6130, 1, 128, 128])
+Target tensor shape: torch.Size([6130, 8, 128, 128])
+Epoch 1/40, Train Loss: 0.2882, Val Loss: 0.0058, Emissions: 0.0005 kgCO2eq
+Epoch 2/40, Train Loss: 0.0261, Val Loss: 0.0026, Emissions: 0.0009 kgCO2eq
+Epoch 3/40, Train Loss: 0.0197, Val Loss: 0.0025, Emissions: 0.0013 kgCO2eq
+Epoch 4/40, Train Loss: 0.0190, Val Loss: 0.0024, Emissions: 0.0018 kgCO2eq
+Epoch 5/40, Train Loss: 0.0211, Val Loss: 0.0020, Emissions: 0.0022 kgCO2eq
+Epoch 6/40, Train Loss: 0.0153, Val Loss: 0.0022, Emissions: 0.0027 kgCO2eq
+Early stopping: minimal gain and emissions
+Avg PSNR per channel: [47.88738797 52.09431101 37.37047835 40.15150095 40.49373039 46.35357951
+ 50.56899272 51.67177864]
+Avg SSIM per channel: [0.86848545 0.97260785 0.88738978 0.9311769  0.93683136 0.97270477
+ 0.97209001 0.94499314]
+Overall Avg PSNR: 45.8240, Overall Avg SSIM: 0.9358
